@@ -1,0 +1,11 @@
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\bin\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.deps.json
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\bin\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.runtimeconfig.json
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\bin\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.runtimeconfig.dev.json
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\bin\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.dll
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\bin\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.pdb
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\obj\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.csprojAssemblyReference.cache
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\obj\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.csproj.CoreCompileInputs.cache
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\obj\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.AssemblyInfoInputs.cache
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\obj\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.AssemblyInfo.cs
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\obj\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.dll
+C:\Users\yitze\source\repos\Lab1p2-DatesCalcApp\DatesCalcApp-Lab1p2\obj\Debug\netcoreapp2.1\DatesCalcApp-Lab1p2.pdb
