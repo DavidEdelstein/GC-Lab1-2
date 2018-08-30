@@ -8,13 +8,11 @@ namespace DatesCalcApp_Lab1p2
         {
 
 
-            Console.WriteLine("Enter today in mm/dd/yyyy format:");
-            DateTime Today = DateTime.Parse(Console.ReadLine());
+            DateTime Today = DateTime.Parse(GetUserInput());
             double subDouble = DateTime.Now.Ticks - Today.Ticks;
 
 
-            Console.WriteLine("Enter Date 2 in mm/dd/yyyy format:");
-            DateTime Date2 = DateTime.Parse(Console.ReadLine());
+            DateTime Date2 = DateTime.Parse(GetUserInput());
             double subDouble2 = DateTime.Now.Ticks - Today.Ticks;
 
             TimeSpan difference = Date2.Subtract(Today);
@@ -25,6 +23,37 @@ namespace DatesCalcApp_Lab1p2
             Console.WriteLine(difference.Days / 30 + "--Months");
             Console.WriteLine(difference.Days / 365 + "--Years");
             Console.ReadLine();
+        }
+
+        static string GetUserInput()
+        {
+            Console.Write("Enter date: ");
+
+            string input = string.Empty;
+
+            while (string.IsNullOrWhiteSpace(input))
+            {
+                input = Console.ReadLine();
+
+                if (input.Length == 0)
+                {
+                    Console.Write("Enter date: ");
+                }
+
+                if (!IsValidUserInput(input))
+                {
+                    Console.Write("Invalid input.");
+                    Console.Write("Enter date: ");
+                    input = string.Empty;
+                }
+            }
+
+            return input;
+        }
+
+        static bool IsValidUserInput(string input)
+        {
+            return DateTime.TryParse(input, out var date);
         }
     }
 }
